@@ -1,3 +1,4 @@
+//light-theme
 [data-theme='light'] {
   --common-white: #fff;
   --common-black: #000;
@@ -6,6 +7,7 @@
   --rose: #E9D9D8;
 }
 
+//dark-theme
 [data-theme='dark'] {
   --common-white: #2c2c2e;
   --common-black: #ffffff;
@@ -18,15 +20,3 @@
 $font-size-paragraph: 1.6rem;
 
 
-// z index
-
-$z1: 1;
-$z2: 2;
-$z3: 3;
-$z4: 4;
-$z5: 5;
-$z6: 6;
-$z7: 7;
-$z8: 8;
-$z9: 9;
-$z10: 10;
