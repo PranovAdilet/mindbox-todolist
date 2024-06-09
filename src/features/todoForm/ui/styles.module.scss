@@ -1,0 +1,42 @@
+.form{
+  padding: 2.2rem 1.3rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+  &__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &__label{
+    width: 100%;
+    display: flex;
+    column-gap: 2rem;
+
+    color: var(--grey, #8e8e93);
+  }
+  &__input{
+    width: 100%;
+
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: var(--common-black);
+    background-color: var(--common-white);
+  }
+
+  &__button{
+    color: var(--grey, #8e8e93);
+
+    svg{
+      width: 3rem;
+    }
+  }
+
+  &__theme{
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+  &__sun{
+    color: #fff;
+  }
+}

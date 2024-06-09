@@ -1,0 +1,22 @@
+@mixin transition {
+   transition: all 0.15s ease-in-out;
+}
+
+@mixin bgImg {
+   background-color: var(--grey);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+@mixin translateCenter {
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@mixin pulseAnimation {
+   background: linear-gradient(-90deg, #f0f0f0 0%, #f8f8f8 50%, #f0f0f0 100%);
+   background-size: 200% 100%;
+   animation: pulse 2.4s ease-in-out infinite;
+}

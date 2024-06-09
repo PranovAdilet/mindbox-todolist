@@ -1,0 +1,22 @@
+.filters{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 1rem;
+
+  &__buttons{
+    display: flex;
+    column-gap: 1.7rem;
+  }
+
+  &__button{
+    border-radius: 3px;
+    color: var(--grey);
+    padding: 5px 0.7rem;
+
+    &.active{
+      border: 1px solid var(--rose);
+    }
+  }
+}

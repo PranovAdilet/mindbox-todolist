@@ -1,0 +1,16 @@
+.btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   @media (hover: hover) and (pointer: fine) {
+      &:hover {
+
+      }
+   }
+
+   &:active {
+   }
+
+   &:disabled {
+   }
+}

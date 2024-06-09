@@ -1,0 +1,32 @@
+[data-theme='light'] {
+  --common-white: #fff;
+  --common-black: #000;
+  --bg-color: #F5F5F5;
+  --grey: #8e8e93;
+  --rose: #E9D9D8;
+}
+
+[data-theme='dark'] {
+  --common-white: #2c2c2e;
+  --common-black: #ffffff;
+  --bg-color: #1c1c1e;
+  --grey: #8e8e93;
+  --rose: #E9D9D8;
+}
+
+// typography
+$font-size-paragraph: 1.6rem;
+
+
+// z index
+
+$z1: 1;
+$z2: 2;
+$z3: 3;
+$z4: 4;
+$z5: 5;
+$z6: 6;
+$z7: 7;
+$z8: 8;
+$z9: 9;
+$z10: 10;
