@@ -7,6 +7,7 @@ import styles from "./styles.module.scss";
 
 const TodoForm: FC<TodoFormProps> = ({ setTodolist }) => {
     const themeFromStorage = localStorage.getItem("theme") || DATA_THEME.light;
+
     const [theme, setTheme] = useState(themeFromStorage);
     const [task, setTask] = useState("");
 
